@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD1A42DA2826E38700992D21 /* song6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BD1A42D92826E38700992D21 /* song6.mp3 */; };
+		BD88369327E10F08003B1DBC /* JustDoItApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD88369227E10F08003B1DBC /* JustDoItApp.swift */; };
+		BD88369527E10F08003B1DBC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD88369427E10F08003B1DBC /* ContentView.swift */; };
+		BD88369727E10F09003B1DBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD88369627E10F09003B1DBC /* Assets.xcassets */; };
+		BD88369A27E10F09003B1DBC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD88369927E10F09003B1DBC /* Preview Assets.xcassets */; };
+		BD88369C27E10F09003B1DBC /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD88369B27E10F09003B1DBC /* Persistence.swift */; };
+		BD88369F27E10F09003B1DBC /* JustDoIt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD88369D27E10F09003B1DBC /* JustDoIt.xcdatamodeld */; };
+		BD8836A627E113E5003B1DBC /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8836A527E113E5003B1DBC /* ToDoListView.swift */; };
+		BD8836A827E11E82003B1DBC /* AddToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8836A727E11E82003B1DBC /* AddToDoView.swift */; };
+		BD8836B027E175E4003B1DBC /* MusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8836AF27E175E4003B1DBC /* MusicView.swift */; };
+		BD8836B427E178A1003B1DBC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8836B327E178A1003B1DBC /* Extensions.swift */; };
+		BD8836B627E19982003B1DBC /* song5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BD8836B527E19982003B1DBC /* song5.mp3 */; };
+		BD8836B827E19D83003B1DBC /* song2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BD8836B727E19D83003B1DBC /* song2.mp3 */; };
+		BD8836BA27E1A0FC003B1DBC /* song3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BD8836B927E1A0FC003B1DBC /* song3.mp3 */; };
+		BD8836BC27E1B5F5003B1DBC /* song4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BD8836BB27E1B5F5003B1DBC /* song4.mp3 */; };
+		BD8836BE27E1B765003B1DBC /* song1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BD8836BD27E1B765003B1DBC /* song1.mp3 */; };
+		BDD069E527E2AB3800639ED5 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD069E427E2AB3800639ED5 /* Emoji.swift */; };
+		BDD069E727E2AB6800639ED5 /* EmojiListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD069E627E2AB6800639ED5 /* EmojiListView.swift */; };
+		BDD069E927E2AC5B00639ED5 /* EmojiDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD069E827E2AC5B00639ED5 /* EmojiDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD1A42D92826E38700992D21 /* song6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song6.mp3; sourceTree = "<group>"; };
+		BD88368F27E10F08003B1DBC /* JustDoIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustDoIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD88369227E10F08003B1DBC /* JustDoItApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustDoItApp.swift; sourceTree = "<group>"; };
+		BD88369427E10F08003B1DBC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BD88369627E10F09003B1DBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD88369927E10F09003B1DBC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD88369B27E10F09003B1DBC /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		BD88369E27E10F09003B1DBC /* JustDoIt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JustDoIt.xcdatamodel; sourceTree = "<group>"; };
+		BD8836A527E113E5003B1DBC /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
+		BD8836A727E11E82003B1DBC /* AddToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoView.swift; sourceTree = "<group>"; };
+		BD8836AF27E175E4003B1DBC /* MusicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicView.swift; sourceTree = "<group>"; };
+		BD8836B327E178A1003B1DBC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		BD8836B527E19982003B1DBC /* song5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song5.mp3; sourceTree = "<group>"; };
+		BD8836B727E19D83003B1DBC /* song2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song2.mp3; sourceTree = "<group>"; };
+		BD8836B927E1A0FC003B1DBC /* song3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song3.mp3; sourceTree = "<group>"; };
+		BD8836BB27E1B5F5003B1DBC /* song4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song4.mp3; sourceTree = "<group>"; };
+		BD8836BD27E1B765003B1DBC /* song1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song1.mp3; sourceTree = "<group>"; };
+		BDD069E427E2AB3800639ED5 /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
+		BDD069E627E2AB6800639ED5 /* EmojiListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiListView.swift; sourceTree = "<group>"; };
+		BDD069E827E2AC5B00639ED5 /* EmojiDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD88368C27E10F08003B1DBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD88368627E10F08003B1DBC = {
+			isa = PBXGroup;
+			children = (
+				BD88369127E10F08003B1DBC /* JustDoIt */,
+				BD88369027E10F08003B1DBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD88369027E10F08003B1DBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD88368F27E10F08003B1DBC /* JustDoIt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD88369127E10F08003B1DBC /* JustDoIt */ = {
+			isa = PBXGroup;
+			children = (
+				BD88369227E10F08003B1DBC /* JustDoItApp.swift */,
+				BDD069E427E2AB3800639ED5 /* Emoji.swift */,
+				BDD069E627E2AB6800639ED5 /* EmojiListView.swift */,
+				BDD069E827E2AC5B00639ED5 /* EmojiDetailView.swift */,
+				BD88369427E10F08003B1DBC /* ContentView.swift */,
+				BD8836A527E113E5003B1DBC /* ToDoListView.swift */,
+				BD8836A727E11E82003B1DBC /* AddToDoView.swift */,
+				BD8836AF27E175E4003B1DBC /* MusicView.swift */,
+				BD8836B327E178A1003B1DBC /* Extensions.swift */,
+				BD1A42D92826E38700992D21 /* song6.mp3 */,
+				BD8836B527E19982003B1DBC /* song5.mp3 */,
+				BD8836B727E19D83003B1DBC /* song2.mp3 */,
+				BD8836B927E1A0FC003B1DBC /* song3.mp3 */,
+				BD8836BB27E1B5F5003B1DBC /* song4.mp3 */,
+				BD8836BD27E1B765003B1DBC /* song1.mp3 */,
+				BD88369627E10F09003B1DBC /* Assets.xcassets */,
+				BD88369B27E10F09003B1DBC /* Persistence.swift */,
+				BD88369D27E10F09003B1DBC /* JustDoIt.xcdatamodeld */,
+				BD88369827E10F09003B1DBC /* Preview Content */,
+			);
+			path = JustDoIt;
+			sourceTree = "<group>";
+		};
+		BD88369827E10F09003B1DBC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BD88369927E10F09003B1DBC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD88368E27E10F08003B1DBC /* JustDoIt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD8836A227E10F09003B1DBC /* Build configuration list for PBXNativeTarget "JustDoIt" */;
+			buildPhases = (
+				BD88368B27E10F08003B1DBC /* Sources */,
+				BD88368C27E10F08003B1DBC /* Frameworks */,
+				BD88368D27E10F08003B1DBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JustDoIt;
+			productName = JustDoIt;
+			productReference = BD88368F27E10F08003B1DBC /* JustDoIt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD88368727E10F08003B1DBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					BD88368E27E10F08003B1DBC = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = BD88368A27E10F08003B1DBC /* Build configuration list for PBXProject "JustDoIt" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD88368627E10F08003B1DBC;
+			productRefGroup = BD88369027E10F08003B1DBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD88368E27E10F08003B1DBC /* JustDoIt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD88368D27E10F08003B1DBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD8836B827E19D83003B1DBC /* song2.mp3 in Resources */,
+				BD88369A27E10F09003B1DBC /* Preview Assets.xcassets in Resources */,
+				BD8836BE27E1B765003B1DBC /* song1.mp3 in Resources */,
+				BD8836BA27E1A0FC003B1DBC /* song3.mp3 in Resources */,
+				BD1A42DA2826E38700992D21 /* song6.mp3 in Resources */,
+				BD8836B627E19982003B1DBC /* song5.mp3 in Resources */,
+				BD8836BC27E1B5F5003B1DBC /* song4.mp3 in Resources */,
+				BD88369727E10F09003B1DBC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD88368B27E10F08003B1DBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD88369C27E10F09003B1DBC /* Persistence.swift in Sources */,
+				BD88369527E10F08003B1DBC /* ContentView.swift in Sources */,
+				BD8836A827E11E82003B1DBC /* AddToDoView.swift in Sources */,
+				BDD069E527E2AB3800639ED5 /* Emoji.swift in Sources */,
+				BD8836B427E178A1003B1DBC /* Extensions.swift in Sources */,
+				BDD069E927E2AC5B00639ED5 /* EmojiDetailView.swift in Sources */,
+				BDD069E727E2AB6800639ED5 /* EmojiListView.swift in Sources */,
+				BD88369327E10F08003B1DBC /* JustDoItApp.swift in Sources */,
+				BD8836B027E175E4003B1DBC /* MusicView.swift in Sources */,
+				BD88369F27E10F09003B1DBC /* JustDoIt.xcdatamodeld in Sources */,
+				BD8836A627E113E5003B1DBC /* ToDoListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BD8836A027E10F09003B1DBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD8836A127E10F09003B1DBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD8836A327E10F09003B1DBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JustDoIt/Preview Content\"";
+				DEVELOPMENT_TEAM = M6QLKLR4M3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mingzhang.JustDoIt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD8836A427E10F09003B1DBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JustDoIt/Preview Content\"";
+				DEVELOPMENT_TEAM = M6QLKLR4M3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mingzhang.JustDoIt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD88368A27E10F08003B1DBC /* Build configuration list for PBXProject "JustDoIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD8836A027E10F09003B1DBC /* Debug */,
+				BD8836A127E10F09003B1DBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD8836A227E10F09003B1DBC /* Build configuration list for PBXNativeTarget "JustDoIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD8836A327E10F09003B1DBC /* Debug */,
+				BD8836A427E10F09003B1DBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BD88369D27E10F09003B1DBC /* JustDoIt.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BD88369E27E10F09003B1DBC /* JustDoIt.xcdatamodel */,
+			);
+			currentVersion = BD88369E27E10F09003B1DBC /* JustDoIt.xcdatamodel */;
+			path = JustDoIt.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BD88368727E10F08003B1DBC /* Project object */;
+}
